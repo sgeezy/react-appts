@@ -1,11 +1,18 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/ubuntu/workspace/rails-5-baseline/spec/views/pages/index.html.erb_spec.rb": [
+      "/home/ubuntu/workspace/rails-5-baseline/spec/controllers/pages_controller_spec.rb": [
+        1,
+        null,
         1,
         null,
         1,
         1,
+        1,
+        1,
+        null,
+        null,
+        null,
         null
       ],
       "/home/ubuntu/workspace/rails-5-baseline/spec/rails_helper.rb": [
@@ -73,7 +80,7 @@
         null,
         null,
         1,
-        0,
+        1,
         null,
         null,
         1,
@@ -90,11 +97,11 @@
         null,
         null,
         1,
-        0,
+        1,
         null,
         null,
         1,
-        0,
+        1,
         null,
         null,
         null,
@@ -291,7 +298,6 @@
       ],
       "/home/ubuntu/workspace/rails-5-baseline/config/routes.rb": [
         1,
-        null,
         1,
         null,
         null,
@@ -366,7 +372,7 @@
         null,
         null,
         1,
-        0,
+        1,
         null,
         null,
         1,
@@ -374,15 +380,52 @@
         null,
         null,
         1,
-        0,
+        1,
         null,
         null,
         1,
-        0,
+        1,
         null,
+        null
+      ],
+      "/home/ubuntu/workspace/rails-5-baseline/app/controllers/pages_controller.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/home/ubuntu/workspace/rails-5-baseline/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/home/ubuntu/workspace/rails-5-baseline/spec/helpers/pages_helper_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/home/ubuntu/workspace/rails-5-baseline/spec/views/pages/index.html.erb_spec.rb": [
+        1,
+        null,
+        1,
+        1,
         null
       ]
     },
-    "timestamp": 1485432668
+    "timestamp": 1485398894
   }
 }
