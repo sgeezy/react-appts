@@ -28,13 +28,14 @@ var AppointmentForm = React.createClass({
             <div>
                 <h2>Make a New Appointment</h2>
                 <form onSubmit={this.handleSubmit}>
-                    <input name='title' placeholder='Appointment Title' 
+                    <input name='title'
                     value={this.props.title}
-                    onChange={this.handleChange} />
+                    onChange={this.handleChange} 
+                    className='form-control' id='appttitle' autofocus={true} />
                     <Datetime input={false} open={true} inputProps={inputProps}
                         value={this.props.appt_time}
                         onChange={this.setApptTime} />
-                    <input type='submit' value='Make Appointment' />
+                    <input type='submit' value='Make Appointment' className='btn btn-success' />
                 </form>
             </div>    
             )
